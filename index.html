@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -6,76 +6,633 @@
 	IROS 2025 ROMADO: 5th workshop on RObotic MAnipulation of Deformable Objects: holistic approaches and challenges forward
 -->
 <html>
-	<head>
-		<title>RoMaDO Workshop at IROS 2024</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>RoMaDO Workshop at IROS 2025</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <style>
+    .text-paragraph {
+      margin-bottom: 0.8em;
+      line-height: 1.6;
+    }
+  </style>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="image"><img src="images/romadora_banner.png" width="1200" alt="" /></span>
-								</header>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <span class="image"
+          ><img src="images/romadora_banner.png" width="1200" alt
+        /></span>
+      </header>
 
-						<center>
-					<nav id="nav">
-						<ul>
-							<li><a href="#program">Program</a></li>
-							<li><a href="#papers">Papers</a></li>
-							<li><a href="#Scope">Scope</a></li>
-							<li><a href="#topics">Topics</a></li>
-							<li><a href="#Speakers">Invited Speakers</a></li>
-							<li><a href="#dates">Submission info</a></li>
-							<li><a href="#organizers">Organizers</a></li>
-							<li><a href="#contact">Contact</a></li>
+      <center>
+        <nav id="nav">
+          <ul>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#papers">Papers</a></li>
+            <li><a href="#Scope">Scope</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#Speakers">Invited Speakers</a></li>
+            <li><a href="#dates">Submission info</a></li>
+            <li><a href="#organizers">Organizers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </center>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- News-->
+        <section id="news" class="main">
+          <center>
+            <header class="major">
+              <h2>Latest News</h2>
+            </header>
+          </center>
+          <ul align="justify">
+            <li>
+              The Workshop will take place half day on
+              <b>Monday, October 20, Hangzhou, China</b>.
+            </li>
+            <li>
+              We are thrilled to announce that we are planning the 5th edition
+              of our ROMADO workshop, which will take place at
+              <b>
+                the IROS Conference from October 18 to 24, 2025, in Hangzhou,
+                China.</b
+              >
+            </li>
+            <li>
+              Stay tuned, any updates, including acceptance news and session
+              schedules, will be posted right here.
+            </li>
+            <li>Thank you for your continued support!</li>
+          </ul>
+        </section>
+
+        <!-- ############################## Scope Section ############################## -->
+        <section id="Scope" class="main">
+          <center>
+            <header class="major">
+              <h2>Scope and Objectives</h2>
+            </header>
+          </center>
+
+          <p align="justify">
+            Imagine homes where intelligent robotic assistants effortlessly
+            manage daily tasks—ranging from organizing laundry to disposing of
+            waste—allowing busy families to reclaim valuable time and providing
+            essential support to elderly individuals with limited mobility.
+            However, realizing this vision presents a fundamental challenge:
+            most household objects that robots must interact with, such as
+            clothing, food, and disposable items, are deformable in nature. The
+            key to unlocking truly helpful domestic robots lies in developing
+            systems capable of intelligently manipulating these non-rigid
+            materials while adapting to human needs and intentions.
+            <b
+              >This workshop focuses on the dynamic relationship between
+              perception, decision-making, and execution in the robotic
+              manipulation of deformable objects.</b
+            >
+            We plan to invite experts from fields such as perception, robotics,
+            and machine learning to discuss and share innovative solutions,
+            driving the advancement of deformable object manipulation
+            technologies for real-world applications.
+          </p>
+
+          <h3><b>Topics of interest</b> include but are not limited to</h3>
+          <ul>
+            <li>
+              Foundation models and multi-modal learning in deformable object
+              manipulation
+            </li>
+            <li>Learning from demonstration and teleoperation</li>
+            <li>
+              Sim2real transfer and generalization to novel deformable objects
+            </li>
+
+            <li>
+              Physics-based and data-driven modeling of deformable objects
+            </li>
+            <li>Physical simulation of deformable objects</li>
+            <li>
+              Model-based planning and control for deformable object
+              manipulation
+            </li>
+            <li>Human-robot interaction with deformable objects</li>
+            <li>
+              Assistive and healthcare applications of deformable object
+              manipulation
+            </li>
+          </ul>
+
+          <h3>Links to 1st, 2nd, 3rd and 4th editions of the workshop:</h3>
+          <div style="display: flex; gap: 20px; flex-wrap: wrap">
+            <a
+              href="http://commandia.unizar.es/irosworkshop2020/"
+              target="_blank"
+              >📎 ROMADO (2020)</a
+            >
+            <a
+              href="http://adkoessler.github.io/romadora-workshop/"
+              target="_blank"
+              >📎 ROMADO-RA (2021)</a
+            >
+            <a
+              href="https://romado-workshop.github.io/ROMADO2022/"
+              target="_blank"
+              >📎 ROMADO-SI (2022)</a
+            >
+            <a
+              href="https://romado-workshop.github.io/ROMADO2024.github.io/"
+              target="_blank"
+              >📎 ROMADO-TA (2024)</a
+            >
+          </div>
+
+          <!-- <footer class="major">
+						<ul class="actions special">
+							<li><a href="scope.html" class="button primary">Full Statement of
+									objectives</a></li>
 						</ul>
-					</nav>
-							</center>
+					</footer> -->
+        </section>
 
-				<!-- Main -->
-					<div id="main">	
-						
-						<!-- News-->
-							<section id="news" class="main">
-								<center><header class="major">
-									<h2>Latest News</h2>
-								</header></center>
-								<ul align="justify"> 
-									<li>We are thrilled to announce that we are planning the 5th edition of our ROMADO workshop, which will take place at <b> the IROS Conference from October 18 to 24, 2025, in Hangzhou, China.</b></li>
-									<li>Stay tuned, any updates, including acceptance news and session schedules, will be posted right here.</li> 
-									<li>Thank you for your continued support!</li>
-								</ul>
-								
-							</section>
-							
-							
-							
-					
+        <!-- ############################## Speaker Section ############################## -->
+        <section id="Invited Speakers" class="main">
+          <center>
+            <header class="major">
+              <h2>Invited Speakers (alphabetical order)</h2>
+            </header>
+          </center>
 
-					</div>
+          <style>
+            .speaker-grid {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+              gap: 20px;
+              padding: 20px;
+            }
 
-				<!-- Footer -->
-					<footer id="footer">
-					
-						<p class="copyright"  align="center">&copy; RoMaDO Workshop 2025. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+            .speaker-card {
+              border: 1px solid #ddd;
+              border-radius: 10px;
+              padding: 15px;
+              text-align: center;
+              box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+            }
 
-			</div>
+            .speaker-card img {
+              width: 150px;
+              height: 150px;
+              border-radius: 50%;
+              object-fit: cover;
+              margin-bottom: 10px;
+              background-color: #f5f5f5;
+            }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+            .speaker-name {
+              font-weight: bold;
+              font-size: 1.2em;
+            }
 
-	</body>
+            .speaker-affiliation {
+              color: #666;
+              font-size: 0.9em;
+              margin: 5px 0;
+            }
+
+            .speaker-title {
+              font-style: italic;
+              margin-top: 10px;
+              font-weight: bold;
+            }
+          </style>
+
+          <div class="speaker-grid">
+            <div class="speaker-card">
+              <img src="images/speakers/Fang.jpg" alt="Bin Fang" />
+              <div class="speaker-name">Bin Fang</div>
+              <div class="speaker-affiliation">
+                Beijing University of Posts and Telecommunications, China
+              </div>
+              <div class="speaker-title">
+                Soft Contact Simulation and Manipulation Learning of Deformable
+                Objects
+              </div>
+            </div>
+
+            <div class="speaker-card">
+              <img src="images/speakers/Han.jpg" alt="Lijun Han" />
+              <div class="speaker-name">Lijun Han</div>
+              <div class="speaker-affiliation">
+                Shanghai Jiaotong University, China
+              </div>
+              <div class="speaker-title">
+                Modeling and Control for Deformable Object Manipulation in
+                Diverse Tasks
+              </div>
+            </div>
+
+            <div class="speaker-card">
+              <img src="images/speakers/Demiris.jpg" alt="Yiannis Demiris" />
+              <div class="speaker-name">Yiannis Demiris</div>
+              <div class="speaker-affiliation">Imperial College London, UK</div>
+              <div class="speaker-title">
+                Human-Centred Deformable Object Manipulation
+              </div>
+            </div>
+
+            <div class="speaker-card">
+              <img src="images/speakers/Pokomy.jpg" alt="Florian Pokorny" />
+              <div class="speaker-name">Florian Pokorny</div>
+              <div class="speaker-affiliation">
+                KTH Royal Institute of Technology, Sweden
+              </div>
+              <div class="speaker-title">
+                Caging-inspired approaches to deformable object manipulation
+              </div>
+            </div>
+
+            <div class="speaker-card">
+              <img src="images/speakers/Song.jpg" alt="Shuran Song" />
+              <div class="speaker-name">Shuran Song</div>
+              <div class="speaker-affiliation">Stanford University, US</div>
+              <div class="speaker-title">
+                Lessons Learned from Deformable Object Manipulation
+              </div>
+            </div>
+
+            <div class="speaker-card">
+              <img src="images/speakers/Zhang.jpg" alt="Fan Zhang" />
+              <div class="speaker-name">Fan Zhang</div>
+              <div class="speaker-affiliation">
+                Honda Research Institute EU, Germany
+              </div>
+              <div class="speaker-title">
+                General Manipulation for Assistive Robotics
+              </div>
+            </div>
+
+            <div class="speaker-card">
+              <img src="images/speakers/Wu.jpg" alt="Yan Wu" />
+              <div class="speaker-name">Yan Wu</div>
+              <div class="speaker-affiliation">
+                Agency for Science, Technology and Research (A*STAR) , Singapore
+              </div>
+              <div class="speaker-title">
+                Tactile-Guided Physical Intelligence on Soft Object Manipulation
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ############################## Program Section ############################## -->
+        <section id="program" class="main">
+          <center>
+            <header class="major">
+              <h2>Program</h2>
+              <head>
+                <style>
+                  table,
+                  th,
+                  td {
+                    border: 1px solid black;
+                    padding: 5px;
+                  }
+                  thead th {
+                    font-weight: bold;
+                  }
+                  td:first-child,
+                  th:first-child,
+                  td:last-child,
+                  th:last-child {
+                    font-weight: bold;
+                  }
+                  .session-row {
+                    text-align: center;
+                    background-color: #f0f0f0;
+                    font-weight: bold;
+                  }
+                </style>
+              </head>
+              <body>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Local Time (UTC+8)</th>
+                      <th>Other Timezones</th>
+                      <th>Talk</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>08:30 - 08:35</th>
+                      <td>CET: 02:30 - 02:35<br />EST: 20:30 - 20:35 (prev)</td>
+                      <td>Welcome and foreword</td>
+                    </tr>
+                    <tr class="session-row">
+                      <td colspan="3">
+                        Session 1: Machine Learning in Deformable Object
+                        Manipulation
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>08:35 - 08:55</th>
+                      <td>CET: 02:35 - 02:55<br />EST: 20:35 - 20:55 (prev)</td>
+                      <td>Shuran Song</td>
+                    </tr>
+                    <tr>
+                      <th>08:55 - 09:15</th>
+                      <td>CET: 02:55 - 03:15<br />EST: 20:55 - 21:15 (prev)</td>
+                      <td>Yan Wu</td>
+                    </tr>
+                    <tr>
+                      <th>09:15 - 09:25</th>
+                      <td>CET: 03:15 - 03:25<br />EST: 21:15 - 21:25 (prev)</td>
+                      <td>Q&A session</td>
+                    </tr>
+                    <tr class="session-row">
+                      <td colspan="3">
+                        Session 2: Human-Centered and Assistive Deformable
+                        Object Manipulation
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>09:25 - 09:45</th>
+                      <td>CET: 03:25 - 03:45<br />EST: 21:25 - 21:45 (prev)</td>
+                      <td>Yiannis Demiris</td>
+                    </tr>
+                    <tr>
+                      <th>09:45 - 10:05</th>
+                      <td>CET: 03:45 - 04:05<br />EST: 21:45 - 22:05 (prev)</td>
+                      <td>Fan Zhang</td>
+                    </tr>
+                    <tr>
+                      <th>10:05 - 10:15</th>
+                      <td>CET: 04:05 - 04:15<br />EST: 22:05 - 22:15 (prev)</td>
+                      <td>Q&A session</td>
+                    </tr>
+                    <tr class="session-row">
+                      <td colspan="3">Session 3: Poster Session</td>
+                    </tr>
+                    <tr>
+                      <th>10:15 - 10:35</th>
+                      <td>CET: 04:15 - 04:35<br />EST: 22:15 - 22:35 (prev)</td>
+                      <td>Poster session</td>
+                    </tr>
+                    <tr>
+                      <th>10:35 - 10:50</th>
+                      <td>CET: 04:35 - 04:50<br />EST: 22:35 - 22:50 (prev)</td>
+                      <td>Coffee break</td>
+                    </tr>
+                    <tr class="session-row">
+                      <td colspan="3">
+                        Session 3: Modeling, Simulation, and Control for
+                        Deformable Object Manipulation
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>10:50 - 11:10</th>
+                      <td>CET: 04:50 - 05:10<br />EST: 22:50 - 23:10 (prev)</td>
+                      <td>Florian Pkomy</td>
+                    </tr>
+                    <tr>
+                      <th>11:10 - 11:30</th>
+                      <td>CET: 05:10 - 05:30<br />EST: 23:10 - 23:30 (prev)</td>
+                      <td>Bin Fang</td>
+                    </tr>
+                    <tr>
+                      <th>11:30 - 11:50</th>
+                      <td>CET: 05:30 - 05:50<br />EST: 23:30 - 23:50 (prev)</td>
+                      <td>Lijun Han</td>
+                    </tr>
+                    <tr>
+                      <th>11:50 - 12:00</th>
+                      <td>CET: 05:50 - 06:00<br />EST: 23:50 - 00:00</td>
+                      <td>Q&A session</td>
+                    </tr>
+                    <tr class="session-row">
+                      <td colspan="3">Session 4: Panel Discussion</td>
+                    </tr>
+                    <tr>
+                      <th>12:00 - 12:30</th>
+                      <td>CET: 06:00 - 06:30<br />EST: 00:00 - 00:30</td>
+                      <td>General Panel</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </body>
+            </header>
+          </center>
+        </section>
+
+        <!-- ############################## Call for Papers ############################## -->
+        <section id="cfp" class="main">
+          <center>
+            <header class="major">
+              <h2>Call for Abstracts</h2>
+            </header>
+          </center>
+
+          <p align="justify" class="text-paragraph">
+            We invite submissions to the upcoming edition of the
+            <strong>ROMADO Workshop</strong>, which focuses on the challenges
+            and progress in <strong>deformable object manipulation</strong>. The
+            goal of this workshop is to bring together researchers working
+            across robotics, perception, simulation, and machine learning to
+            foster interdisciplinary discussion and collaboration.
+          </p>
+
+          <p align="justify" class="text-paragraph">
+            We solicit
+            <strong>extended abstracts up to 3 pages</strong> (excluding
+            references and supplementary material). Submissions can include
+            <em
+              >original research, dataset or benchmark design, and
+              applications</em
+            >
+            that bridge the research areas pertinent to this workshop. All
+            submissions will undergo
+            <strong>external peer review by two experts</strong>, and will be
+            evaluated based on their technical merit and potential contribution
+            to the workshop discussion.
+          </p>
+
+          <p align="justify" class="text-paragraph">
+            Submissions are managed via
+            <a href="[Insert OpenReview link]" target="_blank"
+              ><strong>OpenReview</strong></a
+            >
+            (TBD). All accepted contributions will be presented during the
+            <strong>interactive poster sessions</strong>.
+          </p>
+
+          <h3>Submission Information:</h3>
+          <ul>
+            <li><strong>Submission Deadline:</strong> September 20, 2025</li>
+            <li>
+              <strong>Notification of Acceptance:</strong> September 30, 2025
+            </li>
+            <li><strong>Workshop Date:</strong> October 20, 2025</li>
+          </ul>
+        </section>
+
+        <!-- ############################## Organizers ############################## -->
+        <section id="organizers" class="main">
+          <center>
+            <header class="major">
+              <h2>Organizers</h2>
+            </header>
+          </center>
+          <div
+            style="
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              gap: 15px;
+            "
+          >
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Gao.jpg"
+                alt="Yixing Gao"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a href="https://gaoyixing.wordpress.com/" target="_blank"
+                ><strong>Yixing Gao</strong></a
+              ><br />
+              Jilin University, China
+            </div>
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Yu.jpg"
+                alt="Mingrui Yu"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a href="https://mingrui-yu.github.io/" target="_blank"
+                ><strong>Mingrui Yu</strong></a
+              ><br />
+              Tsinghua University, China
+            </div>
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Zhu.jpg"
+                alt="Jihong Zhu"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a href="https://jihong-zhu.github.io/" target="_blank"
+                ><strong>Jihong Zhu</strong></a
+              ><br />
+              University of York, UK
+            </div>
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Erickson.jpg"
+                alt="Zackory Erickson"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a href="https://zackory.com/" target="_blank"
+                ><strong>Zackory Erickson</strong></a
+              ><br />
+              Carnegie Mellon University, US
+            </div>
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Borras.jpg"
+                alt="Julia Borras"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a href="https://www.iri.upc.edu/staff/jborras" target="_blank"
+                ><strong>Julia Borras</strong></a
+              ><br />
+              Institut de Robòtica i Informàtica Industrial, Spain
+            </div>
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Gams.jpg"
+                alt="Andrej Gams"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a href="https://andrejgams.ijs.si" target="_blank"
+                ><strong>Andrej Gams</strong></a
+              ><br />
+              Jožef Stefan Institute, Slovenia
+            </div>
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Dune.jpg"
+                alt="Claire Dune"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a
+                href="https://cosmer.univ-tln.fr/en/claire-dune-2/"
+                target="_blank"
+                ><strong>Claire Dune</strong></a
+              ><br />
+              University of Toulon, France
+            </div>
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Alkhatib.jpg"
+                alt="Mohammad Alkhatib"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a
+                href="https://scholar.google.fr/citations?user=czFWrd8AAAAJ&hl=en"
+                target="_blank"
+                ><strong>Mohammad Alkhatib</strong></a
+              ><br />
+              CNRS, Clermont Auvergne INP, Institut Pascal, Université Clermont
+              Auvergne, France
+            </div>
+            <div style="flex: 0 0 18%; text-align: center">
+              <img
+                src="images/organizers/Mezouar.jpeg"
+                alt="Youcef Mezouar"
+                style="width: 100%; max-width: 150px; border-radius: 50%"
+              />
+              <a
+                href="https://youcef-mezouar.wixsite.com/ymezouar"
+                target="_blank"
+                ><strong>Youcef Mezouar</strong></a
+              ><br />
+              CNRS, Clermont Auvergne INP, Institut Pascal, Université Clermont
+              Auvergne, France
+            </div>
+          </div>
+        </section>
+
+        <!-- ############################## End of Main ############################## -->
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright" align="center">
+          &copy; RoMaDO Workshop 2025. Design:
+          <a href="https://html5up.net">HTML5 UP</a>.
+        </p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
