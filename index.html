@@ -656,12 +656,12 @@
             <div style="flex: 0 0 18%; text-align: center">
               <img
                 src="images/organizers/Borras.jpg"
-                alt="Julia Borras"
+                alt="Júlia Borràs Sol"
                 style="width: 100%; max-width: 150px; border-radius: 50%"
               />
               <br />
               <a href="https://www.iri.upc.edu/staff/jborras" target="_blank"
-                ><strong>Julia Borras</strong></a
+                ><strong>Júlia Borràs Sol</strong></a
               ><br />
               Institut de Robòtica i Informàtica Industrial, Spain
             </div>
@@ -761,18 +761,20 @@
             .sponsor-container {
               display: flex;
               justify-content: center;
-              align-items: center;
-              padding: 30px 0;
+              align-items: flex-start; /* Align figures at the bottom */
+              padding: 10px 0;
+              gap: 40px; /* Space between sponsor blocks */
               flex-wrap: wrap;
             }
 
-            .sponsor-container a {
-              margin: 0 15px;
+            .sponsor-container figure {
               text-align: center;
+              margin: 0;
+              max-width: 260px;
             }
 
             .sponsor-container img {
-              max-width: 200px;
+              max-width: 100%;
               height: auto;
               filter: grayscale(0%);
               transition: filter 0.3s;
@@ -781,18 +783,45 @@
             .sponsor-container img:hover {
               filter: grayscale(0%);
             }
+
+            .sponsor-container figcaption {
+              margin-top: 10px;
+              font-size: 0.9rem;
+              line-height: 1.4;
+              text-align: center;
+            }
           </style>
 
           <div class="sponsor-container">
-            <a href="https://wg-dom.github.io/" target="_blank">
-              <img src="images\wg_dom_banner.png" alt="IEEE DOM WG Logo" />
-            </a>
-            <a href="https://en.nokov.com/direct" target="_blank">
-              <img
-                src="https://www.nokov.com/images/logo.png"
-                alt="NOKOV Logo"
-              />
-            </a>
+            <figure>
+              <a href="https://wg-dom.github.io/" target="_blank">
+                <img src="images/wg_dom_banner.png" alt="IEEE DOM WG Logo" />
+              </a>
+              <figcaption>
+                IEEE Robotics and Automation Society<br />
+                Working Group on Deformable Object Manipulation
+              </figcaption>
+            </figure>
+
+            <figure>
+              <a href="https://en.nokov.com/direct" target="_blank">
+                <img
+                  src="https://www.nokov.com/images/logo.png"
+                  alt="NOKOV Logo"
+                />
+              </a>
+              <figcaption>NOKOV Motion Capture</figcaption>
+            </figure>
+
+            <figure>
+              <a target="_blank">
+                <img src="images/ROMANDIC.jpg" alt="ROMANDIC Logo" />
+              </a>
+              <figcaption>
+                The HORIZON EU project ROMANDIC<br />
+                (Grant agreement ID: 101159522)
+              </figcaption>
+            </figure>
           </div>
         </section>
 
